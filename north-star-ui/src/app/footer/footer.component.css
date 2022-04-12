@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container
+{
+  max-width: 1170px;
+  background-color: whitesmoke;
+  margin: auto;
+}
+
+.Footer{   
+    background: rgb(248, 248, 248);
+    color: rgb(14, 3, 3);
+    bottom: 0%; 
+    padding: 50px 0;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.footer-col
+{
+    width: 33%;
+    padding: 0 25px;
+}
+
+.footer-col h2
+{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
