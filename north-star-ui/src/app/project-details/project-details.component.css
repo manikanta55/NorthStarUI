@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.mainboxnorthstar {
+    width: 150px;
+    height: 500px;
+    background-color: rgb(230, 224, 224);
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+    color: white;
+    font-size: small;
+  }
+
+  .bottom-left-info {
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    color: white;
+    font-size: small;
+  }
+
+
+  /* .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    font-family: 'Bitter', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rajdhani', sans-serif; 
+    word-spacing: 5px;
+  } */
+
+.alignment {
+    margin-left: 250px
+}

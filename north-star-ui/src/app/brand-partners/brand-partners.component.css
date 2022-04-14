@@ -1,0 +1,9 @@
+.data {
+    font-family: serif;
+    font-size: 60px;
+    padding: 10px;
+    /* margin-left: 40px; */
+    position: relative;
+    text-align: center;
+    color: rgb(175, 174, 174);
+}
