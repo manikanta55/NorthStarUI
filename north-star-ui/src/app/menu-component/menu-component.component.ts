@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-menu-component',
@@ -13,5 +14,10 @@ export class MenuComponentComponent implements OnInit {
   ngOnInit(): void {
 
   }
+  
+  redirectToFooter() {
+    window.scrollbars.visible
+  }
+
 
 }
