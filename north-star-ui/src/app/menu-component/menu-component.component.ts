@@ -16,7 +16,11 @@ export class MenuComponentComponent implements OnInit {
   }
   
   redirectToFooter() {
-    window.scrollbars.visible
+    // this.router.navigate(["/contactus"]);
+  }
+
+  redirectToHome() {
+    this.router.navigate(["/"]);
   }
 
 

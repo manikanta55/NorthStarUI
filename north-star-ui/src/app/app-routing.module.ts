@@ -15,16 +15,7 @@ const routes: Routes = [
   { path: 'sardaar-gabbar-singh', component: GabbarSinghInfoComponent},
   { path: 'ghost', component: GhostInfoComponent},
   { path: 'lakshya', component: LakshyaInfoComponent},
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
-
-  //Redirecting to movie-info
-  { path: 'home/gaalivaana', redirectTo: 'gaalivaana', pathMatch: 'full'},
-  { path: 'home/sardaar-gabbar-singh', redirectTo: 'sardaar-gabbar-singh', pathMatch: 'full'},
-  { path: 'home/ghost', redirectTo: 'ghost', pathMatch: 'full'},
-  { path: 'home/lakshya', redirectTo: 'lakshya', pathMatch: 'full'},
-
-   //home page path
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
 ];
 
 @NgModule({
