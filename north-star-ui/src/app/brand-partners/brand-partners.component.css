@@ -1,9 +1,14 @@
 .data {
     font-family: serif;
-    font-size: 60px;
+    font-size: 5vw;
     padding: 10px;
-    /* margin-left: 40px; */
     position: relative;
     text-align: center;
+    letter-spacing: 5px;
     color: rgb(175, 174, 174);
 }
+
+.arrange_items {
+  text-align: center;
+}
+

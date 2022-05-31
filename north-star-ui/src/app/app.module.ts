@@ -18,6 +18,11 @@ import { GabbarSinghInfoComponent } from './movie-information/gabbar-singh-info/
 import { GhostInfoComponent } from './movie-information/ghost-info/ghost-info.component';
 import { LakshyaInfoComponent } from './movie-information/lakshya-info/lakshya-info.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { AppMenuComponent } from './app-menu/app-menu.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -33,6 +38,7 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
     GhostInfoComponent,
     LakshyaInfoComponent,
     ProjectDetailsComponent,
+    AppMenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,11 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    LayoutModule,
+    MatSidenavModule,
+    MatListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
