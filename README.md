@@ -1,4 +1,4 @@
 # NorthStarUI
 
-### Sample Angualar site ####
+### Sample Angular site ####
 
